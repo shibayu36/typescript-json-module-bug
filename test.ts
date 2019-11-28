@@ -10,7 +10,7 @@ const d1: Data = data;
 const d2: Data = data; // type check error ocurred
 
 const copiedData = data;
-const d3 = copiedData; // type check error didn't occur
+const d3: Data = copiedData; // type check error didn't occur
 
 const data2 = {
   a: "b",
